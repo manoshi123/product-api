@@ -1,8 +1,10 @@
 const express = require("express");
 const fs = require("fs");
+var cors = require('cors');
 const app = express();
 const PORT = 3000;
 
+app.use(cors());
 // Helper: Load products from JSON file
 const loadProducts = () => {
   const data = fs.readFileSync("./products.json", "utf-8");
