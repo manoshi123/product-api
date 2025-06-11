@@ -142,9 +142,9 @@
     "variants": ["XS", "S", "M", "L", "XL"],
     "color": "Unknown",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0604/6957/5837/files/Angular_Bows_Asymmetric_Gathered_Mid-Tier_Panel_Midi_Skirt_In_Black.webp?v=1742545497",
-      "https://cdn.shopify.com/s/files/1/0604/6957/5837/files/front_view_of_Angular_Bows_Asymmetric_Gathered_Mid-Tier_Panel_Midi_Skirt_In_Black.webp?v=1742545824",
-      "https://cdn.shopify.com/s/files/1/0604/6957/5837/files/back_view_of_Angular_Bows_Asymmetric_Gathered_Mid-Tier_Panel_Midi_Skirt_In_Black.webp?v=1742545853"
+     "images/shop1@2x",
+    "images/shop1@2x",
+    "images/shop1@2x"
     ],
     "category": "Summer",
     "type": "Dress",
