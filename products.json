@@ -142,9 +142,9 @@
     "variants": ["XS", "S", "M", "L", "XL"],
     "color": "Unknown",
     "images": [
-     "images/shop1@2x",
-    "images/shop1@2x",
-    "images/shop1@2x"
+     "images/shop1@2x.jpg",
+    "images/shop1@2x.jpg",
+    "images/shop1@2x.jpg"
     ],
     "category": "Summer",
     "type": "Dress",
