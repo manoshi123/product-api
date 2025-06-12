@@ -182,60 +182,60 @@
     ],
     "category": "Summer",
     "type": "Dress",
-    "price": "599.00",
-    "discount": 60,
+    "price": "699.00",
+    "discount": 50,
     "compare_at_price": "1498.00"
   },
   {
     "id": 12,
-    "title": "Asymmetric One-Shoulder Sleeveless Bodycon Mermaid Gown in Vanilla",
+    "title": "Women Wide leg Jeans",
     "description": "Material : Polyester : 40%, Viscose : 40%, Lycra: 20%",
     "variants": ["XS", "S", "M", "L", "XL"],
     "color": "Unknown",
     "images": [
-     "images/shop4@2x.jpg",
-    "images/shop4-2@2x.jpg",
-    "images/shop4-3@2x.jpg"
+     "images/shop5@2x.jpg",
+    "images/shop5-2@2x.jpg",
+    "images/shop5-3@2x.jpg"
     ],
     "category": "Summer",
     "type": "Dress",
-    "price": "829.00",
-    "discount": 42,
-    "compare_at_price": "1429.00"
+   "price": "719.00",
+    "discount": 64,
+    "compare_at_price": "1999.00"
   },
   {
     "id": 13,
-    "title": "Asymmetric Ruched Drawstring Slit Sleeveless Chocolate Brown Maxi Dress",
+    "title": "Girls Fit and Flare Dress",
     "description": "Material : Polyester 75%, Lycra 25%\n\nYou can style it up for parties, dating, outings, clubbing, and other occasions.",
     "variants": ["XS", "S", "M", "L", "XL", "Free Size (Fits XS to L)"],
     "color": "Unknown",
     "images": [
-    "images/shop4@2x.jpg",
-    "images/shop4-2@2x.jpg",
-    "images/shop4-3@2x.jpg"
+    "images/shop6@2x.jpg",
+    "images/shop6-2@2x.jpg",
+    "images/shop6-3@2x.jpg"
     ],
     "category": "Summer",
     "type": "Dress",
-    "price": "609.00",
-    "discount": 30,
-    "compare_at_price": "870.00"
+    "price": "749.00",
+    "discount": 50,
+    "compare_at_price": "1499.00"
   },
   {
     "id": 14,
-    "title": "Asymmetric Top And Trouser Set In Black",
+    "title": "Boys Printed Casual Shirt",
     "description": "Introducing our Asymmetric Top And Trouser Set In Black. This top and trousers combo brings the ultimate chill vibe with a hint of\nedge. The off-shoulder cropped sweatshirt has a relaxed slouchy fit, while the elastic waist wide-leg pants keep things comfy\nwithout compromising on style.\n\nWhether you're lounging at home or running errands with a coffee in hand, this top and trousers set gives you laid-back cool in\none easy outfit.\n\n\nABOUT THE PRODUCT\n\n\n\nCountry of Origin\n\nProudly Made in India\n\nBrand\n\nLittlebox India (LBI)\n\nPack Contains\n\n1 Top + 1 Trouser\n\n\n\n\nWHY THIS PRODUCT?\n\n * One-shoulder top gives a bold, effortless statement\n * Soft-touch fabric that feels like a cozy hug\n * Comfortable to wear\n\n\nHOW TO STYLE\n\nDay Look: Pair with chunky sneakers and a sling bag\n\nEvening Look: Add a sleek ponytail and sliders for chill vibes",
     "variants": ["XS", "S", "M", "L", "XL"],
     "color": "Unknown",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0604/6957/5837/files/Asymmetric_Top_And_Trouser_Set_In_Black.jpg?v=1742208381",
-      "https://cdn.shopify.com/s/files/1/0604/6957/5837/files/Top_Asymmetric_Top_And_Trouser_Set_In_Black.jpg?v=1742208432",
-      "https://cdn.shopify.com/s/files/1/0604/6957/5837/files/Asymmetric_Top_And_Trouser_Set_In_Black_Top_Back.jpg?v=1742208466"
+      "images/shop7@2x.jpg",
+    "images/shop7-2@2x.jpg",
+    "images/shop7-3@2x.jpg"
     ],
     "category": "Summer",
     "type": "Top and trouser set",
-    "price": "439.00",
-    "discount": 41,
-    "compare_at_price": "744.00"
+    "price": "914.00",
+    "discount": 39,
+    "compare_at_price": "1499.00"
   },
   {
     "id": 15,
