@@ -154,9 +154,9 @@
   },
   {
     "id": 10,
-    "title": "Ankle Boots High Chunky Block Heel Mid Calf Boots",
+    "title": "Blue Puff Sleeve Mini Dress",
     "description": "Heel Height : 4 Inches",
-    "variants": ["34", "35", "36", "37", "38", "39", "40", "41", "42"],
+    "variants": ["36", "37", "38", "39", "40"],
     "color": "Unknown",
     "images": [
     "images/shop3@2x.jpg",
@@ -171,14 +171,14 @@
   },
   {
     "id": 11,
-    "title": "Apricot Ribbed Tank Top",
+    "title": "Light Brown Trousers",
     "description": "Material : Polyester 70% ,Cotton 30%",
     "variants": ["XS", "S", "M", "L", "XL"],
     "color": "Unknown",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0604/6957/5837/files/fb269f3629a7419a0c12eecd749b79ed.webp?v=1748544074",
-      "https://cdn.shopify.com/s/files/1/0604/6957/5837/files/0fdf4559bd9ca128a5a62d17117f94a3.webp?v=1748544074",
-      "https://cdn.shopify.com/s/files/1/0604/6957/5837/files/84242e6a588cf26c9a89c50a4d3352b7.webp?v=1748544074"
+    "images/shop4@2x.jpg",
+    "images/shop4-2@2x.jpg",
+    "images/shop4-3@2x.jpg"
     ],
     "category": "Summer",
     "type": "Dress",
@@ -193,9 +193,9 @@
     "variants": ["XS", "S", "M", "L", "XL"],
     "color": "Unknown",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0604/6957/5837/files/3c92515c0f33d6e1d3145ccacbb7cab3.webp?v=1746518042",
-      "https://cdn.shopify.com/s/files/1/0604/6957/5837/files/8f8423b74cc43db774d00ec8964fa786.webp?v=1746518043",
-      "https://cdn.shopify.com/s/files/1/0604/6957/5837/files/414e2010da191b647e9f92e75fad7cd3.webp?v=1746518045"
+     "images/shop4@2x.jpg",
+    "images/shop4-2@2x.jpg",
+    "images/shop4-3@2x.jpg"
     ],
     "category": "Summer",
     "type": "Dress",
@@ -210,9 +210,9 @@
     "variants": ["XS", "S", "M", "L", "XL", "Free Size (Fits XS to L)"],
     "color": "Unknown",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0604/6957/5837/files/Asymmetric_Ruched_Drawstring_Slit_Sleeveless_Chocolate_Brown_Maxi_Dress.jpg?v=1742888044",
-      "https://cdn.shopify.com/s/files/1/0604/6957/5837/files/Back_view_of_Asymmetric_Ruched_Drawstring_Slit_Sleeveless_Chocolate_Brown_Maxi_Dress.jpg?v=1742888107",
-      "https://cdn.shopify.com/s/files/1/0604/6957/5837/files/Material_view_of_Asymmetric_Ruched_Drawstring_Slit_Sleeveless_Chocolate_Brown_Maxi_Dress.jpg?v=1742888155"
+    "images/shop4@2x.jpg",
+    "images/shop4-2@2x.jpg",
+    "images/shop4-3@2x.jpg"
     ],
     "category": "Summer",
     "type": "Dress",
