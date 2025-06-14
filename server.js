@@ -107,15 +107,7 @@ app.get("/products/filter", (req, res) => {
   } = req.query;
 
   console.log(req.query);
-  console.log({
-    colors,
-    size,
-    category,
-    type,
-    prices,
-    start,
-    limit,
-  });
+  
   const filtered = products.filter((product) => {
     const matchColors = colors.length
       ? colors.some((color) => product.color.toLowerCase() === color.toLowerCase())
