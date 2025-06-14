@@ -11,8 +11,8 @@ const loadProducts = () => {
   return JSON.parse(data);
 };
 
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
 /**
  * GET /products
  * Returns all products
