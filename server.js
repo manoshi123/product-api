@@ -116,7 +116,7 @@ app.get("/products/filter", (req, res) => {
       ? size.some((sz) => product.variants.includes(sz.toUpperCase()))
       : true;
 
-    const matchCategory = catagory.length
+    const matchCategory = category.length
       ? category.some(
           (cat) => product.category.toLowerCase() === cat.toLowerCase()
         )
