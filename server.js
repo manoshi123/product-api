@@ -105,6 +105,8 @@ app.get("/products/filter", (req, res) => {
     start,
     limit,
   } = req.query;
+
+  console.log(req.query);
   console.log({
     colors,
     size,
