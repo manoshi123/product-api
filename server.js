@@ -97,53 +97,54 @@ app.get("/types", (req, res) => {
 app.get("/products/filter", (req, res) => {
   const products = loadProducts();
   const {
-    color,
-    size,
-    category,
+    colors = [],
+    size = [],
+    category = [],
     type,
-    minPrice,
-    maxPrice,
+    prices = [],
     start,
-    limit
+    limit,
   } = req.query;
 
   const filtered = products.filter((product) => {
-    const matchColor = color
-      ? product.color.toLowerCase() === color.toLowerCase()
+    const matchColors = colors.length
+      ? colors.some((color) => product.color.toLowerCase() === color.toLowerCase())
       : true;
-    const matchSize = size
-      ? product.variants.includes(size.toUpperCase())
+
+    const matchSize = size.length
+      ? size.some((sz) => product.variants.includes(sz.toUpperCase()))
       : true;
-    const matchCategory = category
-      ? product.category.toLowerCase() === category.toLowerCase()
+
+    const matchCategory = category.length
+      ? category.some((cat) => product.category.toLowerCase() === cat.toLowerCase())
       : true;
+
     const matchType = type
       ? product.type.toLowerCase() === type.toLowerCase()
       : true;
 
-    // Extract variant prices safely
     const variantPrices =
       product.variantPrices || product.variants.map((v) => parseFloat(v.price));
     const productMinPrice = Math.min(...variantPrices);
 
-    const matchMinPrice = minPrice
-      ? productMinPrice >= parseFloat(minPrice)
-      : true;
-    const matchMaxPrice = maxPrice
-      ? productMinPrice <= parseFloat(maxPrice)
+    // Prices array can contain ranges like "0-1000"
+    const matchPrices = prices.length
+      ? prices.some((range) => {
+          const [min, max] = range.split("-").map(Number);
+          return productMinPrice >= min && productMinPrice <= max;
+        })
       : true;
 
     return (
-      matchColor &&
+      matchColors &&
       matchSize &&
       matchCategory &&
       matchType &&
-      matchMinPrice &&
-      matchMaxPrice
+      matchPrices
     );
   });
 
-  // Add pagination
+  // Pagination
   const startIndex = parseInt(start) || 0;
   const limitValue = parseInt(limit) || filtered.length;
   const paginated = filtered.slice(startIndex, startIndex + limitValue);
@@ -152,9 +153,10 @@ app.get("/products/filter", (req, res) => {
     total: filtered.length,
     start: startIndex,
     limit: limitValue,
-    data: paginated
+    data: paginated,
   });
 });
+
 
 
 app.listen(PORT, () => {
