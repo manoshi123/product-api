@@ -156,6 +156,7 @@ app.get("/products/filter", (req, res) => {
     start: startIndex,
     limit: limitValue,
     data: paginated,
+    query: req.query,
   });
 });
 
