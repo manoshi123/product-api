@@ -106,45 +106,47 @@ app.get("/products/filter", (req, res) => {
     limit,
   } = req.query;
 
-  console.log(req.query);
   
-  const filtered = products.filter((product) => {
-    const matchColors = colors.length
-      ? colors.some((color) => product.color.toLowerCase() === color.toLowerCase())
-      : true;
+ 
+        const filtered = products.filter((product) => {
+          const matchColors = colors.length
+            ? colors.some(
+                (color) => product.color.toLowerCase() === color.toLowerCase()
+              )
+            : true;
 
-    const matchSize = size.length
-      ? size.some((sz) => product.variants.includes(sz.toUpperCase()))
-      : true;
+          const matchSize = size.length
+            ? size.some((sz) => product.variants.includes(sz.toUpperCase()))
+            : true;
 
-    const matchCategory = category.length
-      ? category.some((cat) => product.category.toLowerCase() === cat.toLowerCase())
-      : true;
+          const matchCategory = catagory.length
+            ? category.some(
+                (cat) => product.category.toLowerCase() === cat.toLowerCase()
+              )
+            : true;
 
-    const matchType = type
-      ? product.type.toLowerCase() === type.toLowerCase()
-      : true;
+        
 
-    const variantPrices =
-      product.variantPrices || product.variants.map((v) => parseFloat(v.price));
-    const productMinPrice = Math.min(...variantPrices);
+          const variantPrices =
+            product.variantPrices ||
+            product.variants.map((v) => parseFloat(v.price));
+          const productMinPrice = Math.min(...variantPrices);
 
-    // Prices array can contain ranges like "0-1000"
-    const matchPrices = prices.length
-      ? prices.some((range) => {
-          const [min, max] = range.split("-").map(Number);
-          return productMinPrice >= min && productMinPrice <= max;
-        })
-      : true;
+          // Prices array can contain ranges like "0-1000"
+          const matchPrices = prices.length
+            ? prices.some((range) => {
+                const [min, max] = range.split("-").map(Number);
+                return productMinPrice >= min && productMinPrice <= max;
+              })
+            : true;
 
-    return (
-      matchColors &&
-      matchSize &&
-      matchCategory &&
-      matchType &&
-      matchPrices
-    );
-  });
+          return (
+            matchColors &&
+            matchSize &&
+            matchCategory &&
+            matchPrices
+          );
+        });
 
   // Pagination
   const startIndex = parseInt(start) || 0;
