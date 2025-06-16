@@ -381,8 +381,8 @@
     "color": "white",
     "images": [
       "images/arrival1@2x.jpg",
-      "images/like4-2@2x.jpg",
-      "images/like4-3@2x.jpg"
+      "images/larrival1-2@2x.jpg",
+      "images/arrival1-3@2x.jpg"
     ],
     "category": "Dress",
     "type": "Dress",
@@ -398,8 +398,8 @@
     "color": "white",
     "images": [
       "images/arrival2@2x.jpg",
-      "images/like4-2@2x.jpg",
-      "images/like4-3@2x.jpg"
+      "images/arrival2-2@2x.jpg",
+      "images/arrival2-3@2x.jpg"
     ],
     "category": "Kids",
     "type": "Dress",
@@ -415,8 +415,8 @@
     "color": "white",
     "images": [
       "images/arrival3@2x.jpg",
-      "images/like4-2@2x.jpg",
-      "images/like4-3@2x.jpg"
+      "images/arrival3-2@2x.jpg",
+      "images/arrival3-3@2x.jpg"
     ],
     "category": "Shirt",
     "type": "Dress",
@@ -432,8 +432,8 @@
     "color": "red",
     "images": [
       "images/arrival4@2x.jpg",
-      "images/like4-2@2x.jpg",
-      "images/like4-3@2x.jpg"
+      "images/arrival4-2@2x.jpg",
+      "images/arrival4-3@2x.jpg"
     ],
     "category": "Dress",
     "type": "Dress",
