@@ -305,74 +305,7 @@
     "discount": 50,
     "compare_at_price": "1398.00"
   },
-  {
-    "id": 19,
-    "title": "Navy Blue Sleeveless Dress",
-    "description": "<h3>Navy Blue Sleeveless Dress</h3><p>Experience timeless sophistication with our Navy Blue Sleeveless Dress, crafted to deliver effortless elegance for any occasion. Made from smooth, breathable fabric, this dress features a flattering sleeveless design that highlights your shoulders and arms, paired with a tailored silhouette that gently hugs the body for a refined look. The deep navy hue adds a touch of classic versatility, perfect for everything from formal events to casual dinners. Its clean lines and minimalistic style make it easy to accessorize—pair with statement jewelry and heels for an evening out or with flats and a light jacket for a more relaxed vibe. Comfortable yet chic, this sleeveless dress is an essential wardrobe staple that combines modern style with enduring grace.</p>",
-    "variants": ["XS", "S", "M", "L", "XL"],
-    "color": "blue",
-    "images": [
-      "images/like1.jpg",
-      "images/like1-2@2x.jpg",
-      "images/like1-3@2x.jpg"
-    ],
-    "category": "Dress",
-    "type": "Dress",
-    "price": "699.00",
-    "discount": 73,
-    "compare_at_price": "900.00"
-  },
-  {
-    "id": 20,
-    "title": "Men Casual Solid Shirt",
-    "description": "<h3>Men’s Casual Solid Shirt</h3><p>Elevate your everyday style with our Men’s Casual Solid Shirt, crafted from soft, breathable fabric to keep you comfortable all day long. Designed with a classic fit and minimalist solid color, this shirt is versatile enough to dress up or down, making it a wardrobe essential. Whether paired with jeans for a relaxed weekend look or chinos for a smart-casual office outfit, its clean design and durable construction ensure you look polished without effort. Featuring a button-down front, a neat collar, and long sleeves with adjustable cuffs, this shirt balances practicality with timeless style, perfect for casual outings, social gatherings, or laid-back workdays.</p>",
-    "variants": ["XS", "S", "M", "L", "XL"],
-    "color": "blue",
-    "images": [
-      "images/like2.jpg",
-      "images/like2-2@2x.jpg",
-      "images/like2-3@2x.jpg"
-    ],
-    "category": "Shirt",
-    "type": "Dress",
-    "price": "699.00",
-    "discount": 50,
-    "compare_at_price": "1398.00"
-  },
-  {
-    "id": 21,
-    "title": "Black & White Maxi Dress",
-    "description": "<h3>Black & White Maxi Dress</h3><p>Make a striking statement with our Black & White Maxi Dress, a perfect fusion of classic elegance and contemporary style. Crafted from lightweight, flowing fabric, this dress features a bold black and white color palette that adds timeless sophistication to any occasion. The maxi length creates a graceful silhouette, while design details such as a flattering neckline and a cinched waist enhance your figure with ease. Whether you're attending a formal event, a summer soirée, or a casual gathering, this versatile dress pairs beautifully with heels or flats and can be accessorized to suit your mood. Comfortable and stylish, it’s an essential addition to any wardrobe that embraces both chic minimalism and bold contrast.</p>",
-    "variants": ["XS", "S", "M", "L", "XL"],
-    "color": "black",
-    "images": [
-      "images/like3.jpg",
-      "images/like3-2@2x.jpg",
-      "images/like3-3@2x.jpg"
-    ],
-    "category": "Dress",
-    "type": "Dress",
-    "price": "999.00",
-    "discount": 33,
-    "compare_at_price": "1498.00"
-  },
-  {
-    "id": 22,
-    "title": "Floral Print Bodycon Dress",
-    "description": "<h3>Floral Print Bodycon Dress</h3><p>Turn heads with our Floral Print Bodycon Dress, a perfect blend of bold femininity and elegant style. Crafted from stretchy, figure-hugging fabric, this dress accentuates your curves while providing all-day comfort. The vibrant floral pattern adds a fresh, romantic touch, making it ideal for garden parties, date nights, or any occasion where you want to make a statement. Featuring a flattering neckline and a sleek silhouette, it balances playful prints with sophisticated design details. Whether paired with heels for a polished look or dressed down with sandals for casual chic, this bodycon dress is a versatile and eye-catching addition to your wardrobe.</p>",
-    "variants": ["XS", "S", "M", "L", "XL"],
-    "color": "white",
-    "images": [
-      "images/like4.jpg",
-      "images/like4-2@2x.jpg",
-      "images/like4-3@2x.jpg"
-    ],
-    "category": "Dress",
-    "type": "Dress",
-    "price": "529.00",
-    "discount": 31,
-    "compare_at_price": "767.00"
-  },
+  
   {
     "id": 23,
     "title": "Scoop Neck Midi Dress",
